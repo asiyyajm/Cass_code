@@ -1,5 +1,5 @@
 
-# Code Sharing Platform - Blue-footed Booby
+# Code Sharing Platform
 This project is completed for CSC260 at Union College. The goal of the project is to implement a large scale software project in a team environment. The project is a code sharing platform. Teachers can create classes & assignments and add students to them. In groups, students can upload code to assignments and comment on other assignments within their group. In effect, it is a code sharing platform for students to share their code with each other and comment on each other's code to receive feedback.
 
 # Running the Project
