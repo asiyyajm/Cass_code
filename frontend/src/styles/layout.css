@@ -1,0 +1,77 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  height: 52px;
+  background-color: #fff;
+  border-bottom: 2px solid #222;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.brand h1 {
+  color: #222;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0;
+  font-family: "Nunito", Arial, sans-serif;
+  letter-spacing: 0;
+}
+
+.app-header > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.app-header span {
+  color: #555;
+  font-size: 13px;
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+.app-header button {
+  background-color: #846ff2;
+  color: white;
+  border: 1px solid #aaa;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-top: 0;
+}
+
+.app-header button:hover {
+  background-color: #82aaeb;
+  transition-duration: 0.3s;
+  box-shadow: none;
+}
+
+.brand{
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.brand-logo{
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
+
+.back-btn{
+  background-color: #846ff2;
+}
+.logo-button{
+  background : none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+
+
+
+
+}

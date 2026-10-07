@@ -1,0 +1,73 @@
+.groups-page {
+  max-width: 850px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+.groups-page h1 {
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.groups-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.groups-card label {
+  display: block;
+  margin: 0.75rem 0 0.35rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.groups-card select {
+  width: 100%;
+  padding: 0.65rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+.groups-card button {
+  margin-top: 0.8rem;
+  margin-right: 0.5rem;
+  padding: 0.6rem 1rem;
+  background-color: #846ff2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.groups-card button:hover {
+  background-color: #82aaeb;
+}
+
+.groups-card h2 {
+  margin-top: 1.5rem;
+  color: #1f2937;
+}
+
+.groups-card h3 {
+  margin-bottom: 0.4rem;
+  color: #374151;
+}
+
+.groups-card p {
+  margin: 0.35rem 0;
+  color: #4b5563;
+}
+
+.groups-error {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 0.7rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}

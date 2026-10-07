@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+button, input, select, textarea{
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+.app-container {
+  padding: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 7px 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: inherit;
+  margin-top: 8px;
+}
+
+button:hover {
+  background-color: #111;
+}
+
+button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+/* Login page */
+.login-prompt {
+  margin: 80px auto 0;
+  padding: 36px 32px;
+  background-color: white;
+  border: 1px solid #ddd;
+  max-width: 380px;
+}
+
+.login-prompt h1 {
+  font-size: 1.4rem;
+  color: #222;
+  margin-bottom: 1.5rem;
+  font-weight: normal;
+  border-bottom: 2px solid #222;
+  padding-bottom: 10px;
+}
+
+.login-prompt form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.login-prompt form div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 4px;
+}
+
+.login-prompt label {
+  font-size: 13px;
+  color: #555;
+}
+
+.login-prompt input {
+  padding: 8px 10px;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.login-prompt input:focus {
+  border-color: #333;
+  outline: none;
+}
+
+.login-prompt button[type="submit"] {
+  width: 100%;
+  padding: 9px;
+  font-size: 14px;
+  margin-top: 4px;
+}
